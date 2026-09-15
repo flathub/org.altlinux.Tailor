@@ -108,8 +108,8 @@
                 {
                     "type" : "git",
                     "url" : "https://altlinux.space/qualimock/Tailor.git",
-                    "tag" : "v1.0.0",
-                    "commit" : "f8d18cd807ec787021ca00da2edb320f70a55fd8"
+                    "tag" : "v1.1.0",
+                    "commit" : "91c0a02ce0106111b5171737999a2ede4332ad27"
                 }
             ]
         }
