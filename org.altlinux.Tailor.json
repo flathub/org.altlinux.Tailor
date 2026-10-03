@@ -107,9 +107,9 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://altlinux.space/qualimock/Tailor.git",
-                    "tag" : "v1.1.1",
-                    "commit" : "74f5b0448924bd05246a213fe74c506d01308cc0"
+                    "url" : "https://altlinux.space/alt-gnome/Tailor.git",
+                    "tag" : "v1.2.0",
+                    "commit" : "53c85c5f4a4a1a8b29b2c8182da72c6a087f5e0d"
                 }
             ]
         }
