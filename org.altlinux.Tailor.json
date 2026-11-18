@@ -108,8 +108,8 @@
                 {
                     "type" : "git",
                     "url" : "https://altlinux.space/alt-gnome/Tailor.git",
-                    "tag" : "v1.2.0",
-                    "commit" : "53c85c5f4a4a1a8b29b2c8182da72c6a087f5e0d"
+                    "tag" : "v1.3.0",
+                    "commit" : "cee89ef93c2776e17d37e788900d71e827f9e422"
                 }
             ]
         }
