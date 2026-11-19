@@ -9,6 +9,7 @@
         "--share=network",
         "--socket=wayland",
         "--socket=fallback-x11",
+        "--device=dri",
         "--system-talk-name=org.freedesktop.UDisks2"
     ],
     "cleanup": [
