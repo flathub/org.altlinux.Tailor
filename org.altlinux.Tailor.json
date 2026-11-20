@@ -1,7 +1,7 @@
 {
     "app-id" : "org.altlinux.Tailor",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "50",
+    "runtime-version" : "51",
     "sdk" : "org.gnome.Sdk",
     "command" : "tailor",
     "finish-args" : [
@@ -9,8 +9,8 @@
         "--share=network",
         "--socket=wayland",
         "--socket=fallback-x11",
-        "--system-talk-name=org.freedesktop.UDisks2",
-        "--device=all"
+        "--device=dri",
+        "--system-talk-name=org.freedesktop.UDisks2"
     ],
     "cleanup": [
         "/include",
@@ -62,7 +62,7 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://releases.pagure.org/libosinfo/libosinfo-1.12.0.tar.xz",
+                    "url" : "https://gitlab.com/libosinfo/libosinfo/-/releases/v1.12.0/downloads/libosinfo-1.12.0.tar.xz",
                     "sha256" : "ad8557ece26793da43d26de565e3d68ce2ee6bfb8d0113b7cc7dfe07f6bfc6b6"
                 },
                 {
@@ -108,8 +108,8 @@
                 {
                     "type" : "git",
                     "url" : "https://altlinux.space/alt-gnome/Tailor.git",
-                    "tag" : "v1.2.0",
-                    "commit" : "53c85c5f4a4a1a8b29b2c8182da72c6a087f5e0d"
+                    "tag" : "v1.3.0",
+                    "commit" : "cee89ef93c2776e17d37e788900d71e827f9e422"
                 }
             ]
         }
